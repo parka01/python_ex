@@ -5,3 +5,8 @@ TimePerPage=3
 PagesOfBook=120
 ReadingTimeForOneBook=TimePerPage*PagesOfBook
 print(ReadingTimeForOneBook)
+#----------------모범답안---------------------
+avg_time=3 #1페이지 읽는 시간
+total_page=120 #읽어야 하는 페이지
+time=(avg_time*total_page)/60 #완독시간
+print("완독하는데 걸리는 시간 %.f 시간"%time)

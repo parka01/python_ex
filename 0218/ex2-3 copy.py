@@ -1,0 +1,10 @@
+num='1234'
+num2=int(num)
+i1=num2//1000
+num3=num2%1000
+i2=num3//100
+num4=num3%100
+i3=num4//10
+i4=num4%10
+sum=i1+i2+i3+i4
+print(sum)
