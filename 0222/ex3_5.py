@@ -1,4 +1,4 @@
-hap=0
+'''hap=0
 cnt=1
 while cnt<11:
     num=int(input(str(cnt)+'번째 숫자 입력: '))
@@ -9,14 +9,13 @@ while cnt<11:
             if num>0:
                 num=-num
     hap=hap+num
-print(hap)
+print(hap)'''
 
 #----------모범답안----------
 hap=0
 i=1
 while True:
-
-num=int(input(str(i)+'번째 정수 입력: '))
+    num=int(input(str(i)+'번째 정수 입력: '))
     if i%2==0:
         num=-num
     hap=hap+num
