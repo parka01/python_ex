@@ -45,4 +45,21 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> print(a.conjugate())
 (3+2j)
 >>> #print(a.conjugate())a의 켤레복소수를 알려달라
+>>> 10/3
+3.3333333333333335
+>>> 10//3
+3
+>>> 3**1**3
+3
+>>> (3**1)**3
+27
+>>> 10>=20 or 30>=40
+False
+>>> True+1
+2
+>>> True-False
+1
+>>> not 1
+False
+>>> #True의 값은 1이고 False의 값은 0이다.
 >>> 
