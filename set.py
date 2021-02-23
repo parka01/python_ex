@@ -105,3 +105,8 @@ True
 >>> s1.intersection(s2)
 {2}
 >>> #집합&집합 은 교집합 그리고 intersection()또한 교집합 메소드 이다.
+>>> s1-s2
+{1, 3}
+>>> s1.difference(s2)
+{1, 3}
+>>> #집합-집합이나 집합.difference(집합) 메소드는 차집합으로 같다.
