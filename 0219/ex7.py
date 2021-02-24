@@ -1,5 +1,5 @@
 num=int(input('소수 검증 숫자 입력: '))
-for i in range(2,int(num/2))
+for i in range(2,int(num/2)):
     if num%i==0:
         print('소수가 아니다.')
         break
